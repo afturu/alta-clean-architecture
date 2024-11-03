@@ -30,7 +30,7 @@ func main() {
 	}
 	routeController.InitRoute(e)
 
-	e.Start(":8000")
+	e.Start(":8001")
 }
 
 func loadEnv() {
